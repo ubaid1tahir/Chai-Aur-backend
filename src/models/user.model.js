@@ -22,11 +22,11 @@ const userSchema = new Schema({
         required: true,
     },
     coverImage: {
-        type:String,
+        type:String
     },
     password: {
         type:String,
-        required: [true, 'Password is required'],
+        required: [true, 'Password is required']
     },
     watchHistory: [
         {
